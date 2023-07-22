@@ -37,7 +37,7 @@
 git clone https://github.com/WongKinYiu/yolov7.git
 ```
 
-2. Agrege contenido desde este reposotorio en YOLOv7.
+2. Agregue contenido desde este reposotorio en YOLOv7.
     * ```cfg\training\yolov7-muppets.yaml``` (opcional, si desea entrenar el modelo)
     * ```muppet_prediction_weights\v*\v*-best.pt```
     * ```requirements_CUDA.txt```
@@ -106,16 +106,11 @@ python train.py --workers 1 --device 0 --batch-size 8 --epochs 100 --img 640 640
 
 ### Data
 
-| Version       | path |
-|--------------|------|
-| v1         | muppet_prediction_weights\v1\v1-best.pt| 
-
-
-El archivo descargado muévalo a la carpeta ```.\data```
+Descargue el dataset y muévalo a la carpeta ```.\data```
 
 ### Etiquetar imagenes
 
-Descarge LabelImg:
+Descargue LabelImg:
 ```
 pip install labelImg
 ```
