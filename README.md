@@ -1,14 +1,26 @@
 
 # Detección de Muppets usando YOLOv7
 
+¿Por qué sería relevante identificar Muppets? No lo sé, ¡pero aquí está!
 
+<div align="center">
+<img width="500" src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/muppet_prediction_weights/v1/test_batch1_pred.jpg">
+<img width="500" src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/test_output.jpg">
+</div>
+   
 ### Data
 
 * Se extrajeron fotogramas de videos y, de manera manual, se procedió a etiquetar cada personaje presente en cada fotograma usando LabelImg. 
 
-| Version       | Descripcion | Labels | Images | Train images | Val images | Link
+<div align="center">
+<img width="500" src="https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/labeling.png">
+</div>
+
+
+
+| Version       | Source | Labels | Images | Train images | Val images | Link
 |--------------|------|------|------|------|------|------|
-| v1         | Primer episodio de la serie The Muppets 2015 | **24:** 'Kermit', 'Miss Piggy', 'Fozzie Bear', 'Sam the Eagle', 'Rizzo the Rat', 'Yolanda Rat', 'The Great Gonzo', 'Scooter', 'Zoot', 'Pepe the King Prawn', 'Dr. Bunsen Honeydew', 'Beaker', 'Floyd Pepper', 'Animal', 'Dr. Teeth', 'Janice', 'Lips', 'Bobo the Bear', 'Waldorf', 'Statler','Sweetums', 'The Swedish Chef', 'Uncle Deadly', 'Big Mean Carl' |  459 |392 | 67 |
+| v1         | Primer episodio de la serie The Muppets 2015 | **24:** 'Kermit', 'Miss Piggy', 'Fozzie Bear', 'Sam the Eagle', 'Rizzo the Rat', 'Yolanda Rat', 'The Great Gonzo', 'Scooter', 'Zoot', 'Pepe the King Prawn', 'Dr. Bunsen Honeydew', 'Beaker', 'Floyd Pepper', 'Animal', 'Dr. Teeth', 'Janice', 'Lips', 'Bobo the Bear', 'Waldorf', 'Statler','Sweetums', 'The Swedish Chef', 'Uncle Deadly', 'Big Mean Carl'. | 459 | 392 | 67 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_osfo3TLA4CdzaAMQ?e=wP2db5)|
 
 
 ## 🧩 Requerimientos
@@ -32,9 +44,13 @@ git clone https://github.com/WongKinYiu/yolov7.git
     * Reemplaze el contenido de ```requirements.txt```
 
 
-    Los directorios deberian verse similar a:
+    El directorio root ***YOLOv7*** deberian verse similar a:
 
-3. Abra el directorio ```your/path/YOLOv7``` en el terminal Anaconda:
+<div align="center">
+<img width="200" src="https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/dir02.png">
+</div>
+
+4. Abra el directorio ```your/path/YOLOv7``` en el terminal Anaconda:
 
 ```
 cd /d your/path/YOLOv7
