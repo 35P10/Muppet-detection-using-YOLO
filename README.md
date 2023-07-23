@@ -5,9 +5,9 @@
 
 <div align="center">
 <img width="500" src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/muppet_prediction_weights/v1/test_batch1_pred.jpg">
-<img width="500" src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/test_output.jpg">
+<img width="500" src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/muppet_prediction_weights/v2/test_batch2_pred.jpg">
 </div>
-   
+
 ### Data
 
 * Se extrajeron fotogramas de videos y, de manera manual, se procedió a etiquetar cada personaje presente en cada fotograma usando LabelImg. 
@@ -18,10 +18,10 @@
 
 
 
-| Version       | Source | Labels | Images | Train images | Val images | Link
-|--------------|------|------|------|------|------|------|
-| v1         | Primer episodio de la serie The Muppets 2015 | **24:** 'Kermit', 'Miss Piggy', 'Fozzie Bear', 'Sam the Eagle', 'Rizzo the Rat', 'Yolanda Rat', 'The Great Gonzo', 'Scooter', 'Zoot', 'Pepe the King Prawn', 'Dr. Bunsen Honeydew', 'Beaker', 'Floyd Pepper', 'Animal', 'Dr. Teeth', 'Janice', 'Lips', 'Bobo the Bear', 'Waldorf', 'Statler','Sweetums', 'The Swedish Chef', 'Uncle Deadly', 'Big Mean Carl'. | 459 | 392 | 67 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_osfo3TLA4CdzaAMQ?e=wP2db5)|
-| v2         | v1, Segundo episodio de la serie The Muppets 2015 | v1 |  802 | 672 | 130 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_o4sra8FkaBQrWlug?e=qGWEaO)|
+| Version       | Source | Labels | Images | Train images | Val images | Link | img_test |
+|--------------|------|------|------|------|------|------|------|
+| v1         | Primer episodio de la serie The Muppets 2015 | **24:** 'Kermit', 'Miss Piggy', 'Fozzie Bear', 'Sam the Eagle', 'Rizzo the Rat', 'Yolanda Rat', 'The Great Gonzo', 'Scooter', 'Zoot', 'Pepe the King Prawn', 'Dr. Bunsen Honeydew', 'Beaker', 'Floyd Pepper', 'Animal', 'Dr. Teeth', 'Janice', 'Lips', 'Bobo the Bear', 'Waldorf', 'Statler','Sweetums', 'The Swedish Chef', 'Uncle Deadly', 'Big Mean Carl'. | 459 | 392 | 67 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_osfo3TLA4CdzaAMQ?e=wP2db5) | <img src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/v1_test_output.jpg" > |
+| v2         | v1, Segundo episodio de la serie The Muppets 2015 | v1 |  802 | 672 | 130 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_o4sra8FkaBQrWlug?e=qGWEaO)|  <img src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/v2_test_output.jpg" > |
 
 ## 🧩 Requerimientos
 
