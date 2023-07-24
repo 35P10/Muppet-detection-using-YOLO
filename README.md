@@ -22,6 +22,7 @@
 |--------------|------|------|------|------|------|------|------|
 | v1         | Primer episodio de la serie The Muppets 2015 | **24:** 'Kermit', 'Miss Piggy', 'Fozzie Bear', 'Sam the Eagle', 'Rizzo the Rat', 'Yolanda Rat', 'The Great Gonzo', 'Scooter', 'Zoot', 'Pepe the King Prawn', 'Dr. Bunsen Honeydew', 'Beaker', 'Floyd Pepper', 'Animal', 'Dr. Teeth', 'Janice', 'Lips', 'Bobo the Bear', 'Waldorf', 'Statler','Sweetums', 'The Swedish Chef', 'Uncle Deadly', 'Big Mean Carl'. | 459 | 392 | 67 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_osfo3TLA4CdzaAMQ?e=wP2db5) | <img src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/v1_test_output.jpg" > |
 | v2         | v1, Segundo episodio de la serie The Muppets 2015 | v1 |  802 | 672 | 130 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_o4sra8FkaBQrWlug?e=qGWEaO)|  <img src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/v2_test_output.jpg" > |
+| v3         | v1, v2, Primer episodio de la serie The Muppets Mayhem 2023 | v1 |  1524 | 1219 | 305 | [Click me](https://1drv.ms/u/s!AtXTi8WrC_84i_pmmC2Cbv_KYBMu5A?e=JaREol)|  <img src= "https://github.com/35P10/Muppet-detection-using-YOLO/blob/main/images/v3_test_output.jpg" > |
 
 ## 🧩 Requerimientos
 
@@ -90,6 +91,7 @@ La salida debe encontrarse en ```.\runs\detect```
 |--------------|------|
 | v1         | muppet_prediction_weights\v1\v1-best.pt   |
 | v2         | muppet_prediction_weights\v2\v2-best.pt   |
+| v2         | muppet_prediction_weights\v3\v3-best.pt   |
 
 **Ejemplo:**
 
