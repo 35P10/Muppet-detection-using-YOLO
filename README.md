@@ -91,7 +91,7 @@ La salida debe encontrarse en ```.\runs\detect```
 |--------------|------|
 | v1         | muppet_prediction_weights\v1\v1-best.pt   |
 | v2         | muppet_prediction_weights\v2\v2-best.pt   |
-| v2         | muppet_prediction_weights\v3\v3-best.pt   |
+| v3         | muppet_prediction_weights\v3\v3-best.pt   |
 
 **Ejemplo:**
 
