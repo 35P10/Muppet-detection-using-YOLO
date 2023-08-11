@@ -102,7 +102,19 @@ python detect.py --weights muppet_prediction_weights\v1\v1-best.pt --conf 0.5 --
 ## 🚀 Entrenar modelo
 
 ```
+python train.py --workers 1 --device 0 --batch-size 8 --epochs 100 --img 640 640 --data data/muppets_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-muppets.yaml --name yolov7-muppets --weights ''
+```
+
+### Transfer Learning
+
+```
 python train.py --workers 1 --device 0 --batch-size 8 --epochs 100 --img 640 640 --data data/muppets_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-muppets.yaml --name yolov7-muppets --weights yolov7.pt
+```
+
+Freezear capas
+
+```
+python train.py --workers 1 --device 0 --batch-size 8 --epochs 100 --img 640 640 --data data/muppets_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-muppets.yaml --name yolov7-muppets --weights muppet_prediction_weights\v2\v2-best.pt --freeze 51
 ```
 
 > NOTA: Si tiene problemas de VRAM, reduzca el valor del parámetro batch-size.
